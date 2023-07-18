@@ -63,8 +63,7 @@ def job():
 
     # write markdown
     scrape('python', filename)
-    scrape('swift', filename)
-    scrape('javascript', filename)
+    scrape('rust', filename)
     scrape('go', filename)
 
     # git add commit push
